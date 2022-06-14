@@ -1,0 +1,7 @@
+print("Vamos a calcular el indice de masa corporal")
+print("Por favor digite su peso en kilos")
+peso = float(input())
+print("Gracias por este primer dato, digite ahora su estatura en metros")
+altura =float(input())
+mc = peso / (altura ** 2)
+print (" su masa corporal es de ",mc)
